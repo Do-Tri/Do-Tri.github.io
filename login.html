@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="designlog.css">
+</head>
+<body>
+    <a href="homepage.html"><img src="halloween.png" width="75" height="75"></a>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+             <h2 class="card-heading">
+                Welcome back! <br>
+                <small>Log in to your account!</small> <br>
+             </h2>
+            </div>
+             <form class="card-form">
+                <div class="input">
+                    <input type="text" class="input-field" required>
+                    <label class="input-label">Email/Phone Number</label>
+                </div>
+                <div class="input">
+                    <input type="password" class="input-field" pattern=".{8,}" required>
+                    <label class="input-label">Password</label>
+                </div>
+                <div class="action">
+                    <button type="submit" class="btn-action">Continue</button>
+                </div>
+             </form>
+             <div class="card-info">
+                <p>Forgot <a href="#">password</a>?</p>
+                <p>Don't have an account yet? Sign up <a href="signup.html">here</a>!</p>
+             </div>
+        </div>
+    </div>
+</body>
+</html>

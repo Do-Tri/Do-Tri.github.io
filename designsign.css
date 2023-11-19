@@ -1,0 +1,109 @@
+body{
+    font-family: "DM Sans", cursive;
+    line-height: 1.5;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88cd4e06-e4dc-45bb-90b6-a7146f058af1/ddjczul-71416ea2-360a-4db2-aa33-fa34e497730a.jpg/v1/fill/w_1329,h_601,q_70,strp/halloween_2019_by_unidcolor_ddjczul-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzI0IiwicGF0aCI6IlwvZlwvODhjZDRlMDYtZTRkYy00NWJiLTkwYjYtYTcxNDZmMDU4YWYxXC9kZGpjenVsLTcxNDE2ZWEyLTM2MGEtNGRiMi1hYTMzLWZhMzRlNDk3NzMwYS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.YIsE46sKnzSjTewaQssw2wGHJaTAh7ZWnbq-kBF_UwQ);
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    padding: 0 2rem;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+input{
+    appearance: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+.card{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+    background-color: orangered;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 black;
+    padding: .75rem;
+}
+.card-image{
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 50%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3da1e2d9-2123-44ff-9831-ca5d2b7ecd01/dfewd8s-a790d2b5-7c49-49e4-a05b-bd3699cbbec9.jpg/v1/fit/w_828,h_1210,q_70,strp/halloween_hamlet_by_natekeith_dfewd8s-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg3MSIsInBhdGgiOiJcL2ZcLzNkYTFlMmQ5LTIxMjMtNDRmZi05ODMxLWNhNWQyYjdlY2QwMVwvZGZld2Q4cy1hNzkwZDJiNS03YzQ5LTQ5ZTQtYTA1Yi1iZDM2OTljYmJlYzkuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ._GjpQu-Huvnl3KJFmWJ7GAwwCqGI0Z4VmFydQhqqvqY);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 0 5%;
+    position: relative;    
+}
+.card-heading{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    right: 10%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: purple;
+    line-height: 1.222;
+}
+.card-form{
+    padding: 2rem 1rem 0;
+}
+.input{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+}
+.input-label{
+    color:#FFF;
+    position: absolute;
+    top: 0.25rem;
+    transition: .25s ease;
+}
+.input-field{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 2px solid lightgrey;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: .25rem 0;
+}
+.action{
+    margin-top: 2rem;
+}
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+a:link {
+    color: teal;
+    text-decoration: underline;
+}
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+.btn-action{
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 1em;
+    width: 100%;
+    font-weight: 500;
+    background-color: teal; 
+    border-radius: 6px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.card-info{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: .875rem;
+    color: #FFF;
+}

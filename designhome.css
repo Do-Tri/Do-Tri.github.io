@@ -1,0 +1,64 @@
+body{
+    font-family: "DM Sans", cursive;
+    line-height: 1.5;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88cd4e06-e4dc-45bb-90b6-a7146f058af1/dbrkcy0-0c1a55b8-f3f9-4b19-9cbe-72d57c6ea168.jpg/v1/fill/w_1600,h_793,q_75,strp/halloween_2017_by_unidcolor_dbrkcy0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzkzIiwicGF0aCI6IlwvZlwvODhjZDRlMDYtZTRkYy00NWJiLTkwYjYtYTcxNDZmMDU4YWYxXC9kYnJrY3kwLTBjMWE1NWI4LWYzZjktNGIxOS05Y2JlLTcyZDU3YzZlYTE2OC5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LNcnBHmvIi-8ZY2buUvokI87T1-kOQ_j56oJHKHavoM);
+     height: 100%;
+     background-repeat: no-repeat;
+    padding: 0 2rem;
+    color: #FFF;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.action{
+    margin-top: 2rem;
+}
+a:link, a:visited {
+    color: lightskyblue;
+    text-decoration: underline;
+}
+a:link {
+    color: yellow;
+    text-decoration: underline;
+}
+a:hover{
+    color: magenta;
+    text-decoration: underline;
+}
+.btn-action-sign{
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 1em;
+    width: 30%;
+    font-weight: 500;
+    background-color: orangered; 
+    border-radius: 6px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.bts{
+    display: flex;
+    padding: 100px;
+}
+.btn-action-log{
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 1em;
+    width: 30%;
+    font-weight: 500;
+    background-color: purple; 
+    border-radius: 6px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.background{
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1;
+    position: center;
+}

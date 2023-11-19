@@ -1,0 +1,109 @@
+body{
+    font-family: "DM Sans", cursive;
+    line-height: 1.5;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88cd4e06-e4dc-45bb-90b6-a7146f058af1/damgm1t-861e0881-96e5-4584-afba-f67ebc65ecb0.jpg/v1/fill/w_1500,h_533,q_70,strp/halloween_2016_by_unidcolor_damgm1t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzQ2IiwicGF0aCI6IlwvZlwvODhjZDRlMDYtZTRkYy00NWJiLTkwYjYtYTcxNDZmMDU4YWYxXC9kYW1nbTF0LTg2MWUwODgxLTk2ZTUtNDU4NC1hZmJhLWY2N2ViYzY1ZWNiMC5qcGciLCJ3aWR0aCI6Ijw9MjEwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.WHxb3e0G5wynFo94baudH8nczHzwEXKu8Lcd666MK8A);
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    padding: 0 2rem;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+input{
+    appearance: none;
+    border-radius: 0;
+    background-color: transparent;
+}
+.card{
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 425px;
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 0 black;
+    padding: .75rem;
+}
+.card-image{
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 50%;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/619b131d-3586-4789-8d26-b6f5cc2b297d/dbs5wqt-87984aad-2d8d-4fd1-af80-5ccf79a27f29.jpg/v1/fit/w_600,h_822,q_70,strp/halloween_night_by_maril1_dbs5wqt-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODIyIiwicGF0aCI6IlwvZlwvNjE5YjEzMWQtMzU4Ni00Nzg5LThkMjYtYjZmNWNjMmIyOTdkXC9kYnM1d3F0LTg3OTg0YWFkLTJkOGQtNGZkMS1hZjgwLTVjY2Y3OWEyN2YyOS5qcGciLCJ3aWR0aCI6Ijw9NjAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ATH220bkcqbAhkuS7p7MkMBuMGgogEKR24F3-3cDOxo);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 0 5%;
+    position: relative;    
+}
+.card-heading{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    right: 10%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: orangered;
+    line-height: 1.222;
+}
+.card-form{
+    padding: 2rem 1rem 0;
+}
+.input{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-top: 1.5rem;
+}
+.input-label{
+    color:#FFF;
+    position: absolute;
+    top: 0.25rem;
+    transition: .25s ease;
+}
+.input-field{
+    border: 0;
+    z-index: 1;
+    background-color: transparent;
+    border-bottom: 2px solid lightgrey;
+    font: inherit;
+    font-size: 1.125rem;
+    padding: .25rem 0;
+}
+.action{
+    margin-top: 2rem;
+}
+a:link, a:visited {
+    color: teal;
+    text-decoration: underline;
+}
+a:link {
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.btn-action{
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 1em;
+    width: 100%;
+    font-weight: 500;
+    background-color: blue; 
+    border-radius: 6px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.card-info{
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: .875rem;
+    color: #FFF;
+}
